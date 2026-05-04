@@ -31,6 +31,10 @@ app.use(cookieParser());
 app.use(morgan("dev"));
 app.use("/api", routes);
 
+app.get("/test", (req, res) => {
+  res.send("TEST WORKING");
+});
+
 // ✅ YAHAN ADD KARO
 app.get("/", (req, res) => {
   console.log("Root route hit");
