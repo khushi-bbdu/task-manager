@@ -33,6 +33,7 @@ app.use("/api", routes);
 
 // ✅ YAHAN ADD KARO
 app.get("/", (req, res) => {
+  console.log("Root route hit");
   res.send("Task Manager API is running 🚀");
 });
 
