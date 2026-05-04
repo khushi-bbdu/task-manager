@@ -28,7 +28,6 @@ This project demonstrates real-world application architecture including authenti
   * Overview of tasks
   * Status-based filtering
 
-* 🔍 **Search & Filtering** *(if added, keep — otherwise remove)*
 
 ---
 
