@@ -31,6 +31,11 @@ app.use(cookieParser());
 app.use(morgan("dev"));
 app.use("/api", routes);
 
+// ✅ YAHAN ADD KARO
+app.get("/", (req, res) => {
+  res.send("Task Manager API is running 🚀");
+});
+
 app.use(routeNotFound);
 app.use(errorHandler);
 
